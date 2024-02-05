@@ -1,20 +1,24 @@
 import styled from "styled-components";
 
-const Button = styled.button`
-
-
-
-`
 
 function App() {
 
   return (
     <>
-      <button>
+      <Button>
         This is styled component button
-      </button>
+      </Button>
     </>
   )
 }
 
 export default App
+
+
+const Button = styled.button`
+  background-color: black;
+  color: white;
+  padding: 10px;
+
+
+`;
