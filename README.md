@@ -1,1 +1,1 @@
-# This is Dice game
+# This is a Dice game made using react
